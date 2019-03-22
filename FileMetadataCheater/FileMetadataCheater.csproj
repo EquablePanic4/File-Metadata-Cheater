@@ -7,7 +7,7 @@
     <ProjectGuid>{9DE11CB0-BFF3-4A07-AA46-A53A32B681F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FileMetadataCheater</RootNamespace>
-    <AssemblyName>FileMetadataCheater</AssemblyName>
+    <AssemblyName>File Metadata Cheater</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -24,7 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
