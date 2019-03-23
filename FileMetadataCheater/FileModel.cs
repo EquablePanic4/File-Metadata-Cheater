@@ -39,7 +39,13 @@ namespace FileMetadataCheater
         public DateTime SetModifyDate(int minMinutes, int maxMinutes, DateTime fromTime)
         {
             var random = new Random();
-            return SetModifyDate(random.Next(minMinutes, minMinutes) * (-1), fromTime);
+            return SetModifyDate(random.Next(minMinutes, maxMinutes) * (-1), fromTime);
+        }
+
+        public DateTime AddDaysToFile(int days)
+        {
+            fileInfo.LastWriteTime = modifyDate.AddDays(days);
+            return fileInfo.LastWriteTime;
         }
     }
 }
